@@ -53,8 +53,8 @@ const connectionStatus =
 // Mode names
 const modeNames = [
     "AUTO",
-    "ALWAYS ON",
-    "ALWAYS OFF"
+    "ALWAYS OFF",
+    "ALWAYS ON"
 ];
 
 
