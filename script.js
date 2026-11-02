@@ -52,9 +52,9 @@ const connectionStatus =
 
 // Mode names
 const modeNames = [
-    "AUTO",
-    "ALWAYS ON",
-    "ALWAYS OFF"
+    "Automatic Control",
+    "Fan Disabled",
+    "Fan Enabled"
 ];
 
 
