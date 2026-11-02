@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #10141c;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #8993a4;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #1b2230;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    border: 1px solid #30394a;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Smoke sensor */
+
+.smoke-box {
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.smoke-box.clear {
+    background: #123c2b;
+    color: #4ade80;
+}
+
+.smoke-box.danger {
+    background: #491c24;
+    color: #ff6262;
+}
+
+/* Fan mode switch */
+
+.mode-switch {
+    display: flex;
+    background: #10141c;
+    padding: 6px;
+    border-radius: 12px;
+    gap: 6px;
+}
+
+.mode-btn {
+    flex: 1;
+    padding: 14px 5px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #8993a4;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.mode-btn:hover {
+    background: #30394a;
+    color: white;
+}
+
+.mode-btn.active {
+    background: #3478f6;
+    color: white;
+}
+
+.mode-btn:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
+
+.description {
+    color: #8993a4;
+    margin-bottom: 0;
+}
+
+#connectionStatus {
+    color: #8993a4;
+    font-size: 13px;
+}
